@@ -1,27 +1,69 @@
-﻿  Game.cpp
+﻿  Audio.cpp
+D:\Programming\Development\GameVita\TheGame\src\Audio\Audio.cpp(78,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const char *(__cdecl *)(void)'
+  Player.cpp
+D:\Programming\Development\GameVita\TheGame\src\Player\Player.cpp(12,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Player\Player.cpp(76,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Player\Player.cpp(115,64): warning C4018: '>': signed/unsigned mismatch
+D:\Programming\Development\GameVita\TheGame\src\Player\Player.cpp(126,40): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Player\Player.cpp(127,40): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Player\Player.cpp(129,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Player\Player.cpp(130,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Collider.cpp
+  Drawable.cpp
+  Error.cpp
+  EventHandler.cpp
+  Game.cpp
 D:\Programming\Development\GameVita\TheGame\src\Game\Game.h(35,37): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(8,9): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(21,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(22,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(30,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(31,25): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(32,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(35,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(36,28): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(37,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(45,15): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(49,16): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(221,15): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(280,27): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(318,90): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(396,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(400,60): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(427,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(432,18): warning C4244: 'argument': conversion from 'float' to 'Uint32', possible loss of data
-D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(433,34): warning C4244: '=': conversion from 'Uint64' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(12,9): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(25,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(26,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(34,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(35,25): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(36,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(39,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(40,28): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(41,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(49,15): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(53,16): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(225,15): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(284,27): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(324,90): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(379,20): warning C4244: 'argument': conversion from 'float' to 'Uint32', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(380,36): warning C4244: '=': conversion from 'Uint64' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(409,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(413,60): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(440,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(445,18): warning C4244: 'argument': conversion from 'float' to 'Uint32', possible loss of data
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.cpp(446,34): warning C4244: '=': conversion from 'Uint64' to 'float', possible loss of data
+  Main.cpp
+D:\Programming\Development\GameVita\TheGame\src\Game\Game.h(35,37): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(13,9): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Programming\Development\GameVita\TheGame\Main.cpp(26,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(27,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(35,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(36,25): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(37,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(40,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(41,28): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(42,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(50,15): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(54,16): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(121,53): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(122,55): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(123,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(126,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(127,51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(128,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(151,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(160,19): warning C4244: 'argument': conversion from 'float' to 'Uint32', possible loss of data
+D:\Programming\Development\GameVita\TheGame\Main.cpp(161,35): warning C4244: '=': conversion from 'Uint64' to 'float', possible loss of data
+  Renderer.cpp
+  Sprite.cpp
+  StaticText.cpp
   Generating code
-  1 of 646 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB not found, fall back to full compilation.
+D:\Programming\Development\GameVita\TheGame\src\Event\EventHandler.cpp(118): warning C4715: 'EventHandler::getPos': not all control paths return a value
+D:\Programming\Development\GameVita\TheGame\src\Event\EventHandler.cpp(110): warning C4715: 'EventHandler::getMSInput': not all control paths return a value
+  All 651 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
   GameVita.vcxproj -> D:\Programming\Development\GameVita\TheGame\Release\GameVita.exe
